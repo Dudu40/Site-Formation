@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+	background-color: #1a5276 ;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.boite{
+	width: 550px;
+	padding: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #A1D6E250;
+	text-align: center;
+	border-radius: 24px;
+}
+
+.boite h1{
+	color: #F1F1F2; 
+	text-transform: none;
+	font-weight: 500;;
+}
+
+.form-control::placeholder{
+	color:white;
+}
+
+.form-control{
+	display: block;
+	width: 100%;
+	height: 60px
+	box-sizing: border-box;
+	margin:18px 0;
+	border:0;
+	background: #BCBABE50;
+	padding: 10px 40px;
+	outline: none;
+	color: #BCBABE;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.boite input[type="email"],.boite input[type="text"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #F1F1F2;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: #F1F1F2;
+	border-radius: 24px;
+	transition:0.25s;
+}
+
+.boite input[type="password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #F1F1F2;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: #BCBABE;
+	border-radius: 24px;
+	transition:0.25s;
+}
+
+.boite input[type="email"]:focus,.boite input[type="password"]:focus,.boite input[type="text"]:focus{
+	width: 400px;
+	color:white;
+}
+
+.boite input[type="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid white;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition:0.25s;
+	cursor: pointer;
+}
+
+.boite button[type="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #1995AD ;
+	padding: 14px 40px;
+	outline: none;
+	color: #2F2E33;
+	border-radius: 24px;
+	transition:0.25s;
+	cursor: pointer;
+}
+
+.boite input[type="file"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #1995AD ;
+	padding: 14px 40px;
+	outline: none;
+	color: #2F2E33;
+	border-radius: 24px;
+	transition:0.25s;
+	cursor: pointer;
+}
+
+.boite input[type="submit"]:hover{
+	background: white ;
+	color:black;
+}

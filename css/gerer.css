@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+}
+
+body{
+	background:  linear-gradient(to bottom, #1995AD 50%,#F1F1F2 20%);
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.all{
+	max-width:800px;
+	margin: auto;
+	padding: 10px;
+}
+
+.task a{
+	color: #F1F1F2;
+}
+
+h3{
+	margin: 10px 0;
+	width: 100%;
+	border: none;
+	border-bottom:2px solid #A1D6E2;
+	background: none;
+	padding: 10px;
+	outline: none;
+	font-size: 30px;
+	color: #BCBABE;
+
+}
+
+.task{
+	width: 100%;
+	background: #BCBABE70;
+	padding: 18px;
+	margin: 6px 0;
+	overflow: hidden;
+}
+
+.task i{
+	float: right;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.comp .task{
+	background: red;
+	color:white;
+}

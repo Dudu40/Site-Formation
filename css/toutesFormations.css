@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+}
+
+body{
+	background-color: #1a5276 ;
+	background-size:cover;
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.pricing-table{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.col{
+	flex:40%;
+	padding: 10px;
+	max-width: 320px;
+	box-sizing: border-box;
+	background: #BCBABE70;
+	margin: 5px 10px;
+	padding: 20px;
+}
+
+.table{
+	background: #F1F1F2;
+	padding: 40px 20px;
+	position: absolute;
+	overflow: hidden;
+	box-shadow: 0 0 10px #1995AD;
+}
+
+.table h2{
+	text-transform: uppercase;
+	color: black;
+}
+
+.table ul{
+	margin: 0;
+	padding: 0;
+	color: black;
+	position: absolute;
+}
+
+.table ul li{
+	padding: 10px 0;
+	list-style: none;
+	color: black;
+}
+
+.table ul li strong{
+	color: black;
+}
+
+.price{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.price span{
+	display: block;
+	font-size: 14px;
+	color: black;
+}
+
+.table a{
+	text-decoration: none;
+	color: #1995AD;
+	border: 2px solid #A1D6E2;
+	display: block;
+	padding: 10px 0;
+	margin: 10px 0;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition:0.5s;
+}
+
+.table a:hover{
+	background: #A1D6E2;
+	color: #F1F1F2;
+}
+
+.pop{
+	background: #1995AD;
+	color: #F1F1F2;
+	transform: rotate(45deg);
+	padding: 5px 40px;
+	position: absolute;
+	top: 20px;
+	right: -30px;
+}
+
+@media screen and (max-width: 980px){
+	.col{
+		flex: 50%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.col{
+		flex: 100%;
+	}
+}

@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+}
+
+body{
+ background-color: #1a5276 ;
+}
+
+.presentation h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: #F1F1F2;
+	font-size:40px;
+    text-align:center;
+	font-weight:bold;
+	margin-top:120px;
+	border-bottom:3px solid #F1F1F2;
+	padding-bottom:30px;
+}
+
+.presentation p{
+	font-family: "American Typewriter", serif;
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: #F1F1F2;
+
+}
+
+.section{
+	overflow: hidden;
+	text-align: center;
+	padding: 15px;
+  
+}
+
+.section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: #F1F1F2;
+	font-size:40px;
+    text-align:center;
+	font-weight:bold;
+	margin-top:120px;
+	border-bottom:3px solid #F1F1F2;
+	padding-bottom:30px;
+}
+
+.image{
+	margin-bottom: 40px;
+}
+
+.image a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	overflow: hidden;
+	border-radius: 100%;
+}
+
+.image a img{
+	width: 150px;
+	filter: grayscale(50%);
+	transition: 0.4s all;
+}
+
+.image a:hover > img{
+	filter: none;
+}
+
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #F1F1F2;
+	margin-bottom: 40px;
+}
+
+.under{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: #F1F1F2;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+
+.under:target{
+	height: auto;
+}
+
+.nom{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
