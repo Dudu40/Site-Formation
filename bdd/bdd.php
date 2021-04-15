@@ -1,8 +1,8 @@
 <?php
 	
 	function connectBDD() {
-		$user = "ducasseque";
-		$pass = "azerty";
+		$user = "";
+		$pass = "";
 		$base = "Raeda";
 		$serv = "localhost";
 
